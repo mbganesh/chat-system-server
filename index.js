@@ -32,4 +32,4 @@ app.get('/' , (req , res) => {
     res.json('Server Works')
 })
 
-server.listen(3001)
+server.listen(process.env.PORT || 3001)
